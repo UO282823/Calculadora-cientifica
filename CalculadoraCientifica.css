@@ -1,3 +1,4 @@
+/*Especifidad (001)*/
 body{
     font-family: "Monaco", sans-serif;
     background-color: white;
@@ -8,7 +9,7 @@ body{
     justify-content: center;
 
 }
-
+/*Especifidad (001)*/
 form{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -17,18 +18,20 @@ form{
     width: fit-content; 
     height: auto;
 }
-
+/*Especifidad (011)*/
 input[name="pantalla"]{
     background-color: white;
     grid-column: span 5;
     margin-bottom: 1em;
     padding: 1em;
 }
+/*Especifidad (011)*/
 input[value="F-E"]{
     grid-column: span 3;
     width: 4.5em;  
 }
-input[type=button]  {
+/*Especifidad (011)*/
+input[type=submit]  {
     border-radius: 5%;
     
     padding: 1em;
