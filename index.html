@@ -1,3 +1,4 @@
+
 <!DOCTYPE HTML>
 <html lang="es">
     <head>
@@ -6,72 +7,75 @@
         <meta name="author" content="Hugo Pulido Pensado" />
         <meta name="description" content="Calculadora cientifica" />
         <meta name ="keywords" content ="Calculadora, cientifica, Calculadora cientifica" />
-        <meta name ="viewport" content ="width=device-width, initial scale=1.0" />
-        <script src="CalculadoraCientifica.js"></script>
+        <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" type="text/css" href="CalculadoraCientifica.css" />
     </head>
     <body>
+
+    
+
+
         <h1>Calculadora cientifica</h1>
-        <form>
+        <form action="#" method="post">
 
             
             <label for="pantalla">Resultado</label>
             <input type="text" name="pantalla" id="pantalla" value="" lang="es" disabled>
 
-            <input type="button" value="DEG" onclick="calculadora.de()">
-            <input type="button" value="HYP" onclick="calculadora.hy()">
-            <input type="button" value="F-E" onclick="calculadora.fe()">
+            <input type="submit" name="DEG" value="Deg">
+            <input type="submit" name="HYP" value="HYP">
+            <input type="submit" name="F-E" value="F-E">
 
             
-            <input type="button" value="MC" onclick="calculadora.mc()">
-            <input type="button" value="MR" onclick="calculadora.mr()">
-            <input type="button" value="M+" onclick="calculadora.mMas()">
-            <input type="button" value="M-" onclick="calculadora.mMenos()">
-            <input type="button" value="MS" onclick="calculadora.ms()">
+            <input type="submit" name="MC" value="MC" >
+            <input type="submit" name="MR" value="MR" >
+            <input type="submit" name="M+" value="M+" >
+            <input type="submit" name="M-" value="M-">
+            <input type="submit" name="MS" value="MS" >
 
-            <input type="button" value="x^2" onclick="calculadora.cuadrado()" >
-            <input type="button" value="x^y" onclick="calculadora.xy()">
-            <input type="button" value="sin" onclick="calculadora.sin()">
-            <input type="button" value="cos" onclick="calculadora.cos()">
-            <input type="button" value="tan" onclick="calculadora.tan()">
+            <input type="submit" name="x^2" value="x^2" >
+            <input type="submit" name="x^y" value="x^y">
+            <input type="submit" name="sin" value="sin">
+            <input type="submit" name="cos" value="cos">
+            <input type="submit" name="tan" value="tan">
 
-            <input type="button" value="√" onclick="calculadora.raiz()">
-            <input type="button" value="10^x" onclick="calculadora.pot10()">
-            <input type="button" value="log" onclick="calculadora.log()">
-            <input type="button" value="Exp" onclick="calculadora.exp()">
-            <input type="button" value="Mod" onclick="calculadora.mod()">
+            <input type="submit" name="√" value="√">
+            <input type="submit" name="10^x" value="10^x">
+            <input type="submit" name="log" value="log">
+            <input type="submit" name="Exp" value="Exp">
+            <input type="submit" name="Mod" value="Mod">
 
-            <input type="button" value="↑" onclick="calculadora.shif()">
-            <input type="button" value="CE" onclick="calculadora.borrar()">
-            <input type="button" value="C" onclick="calculadora.borrar()">
-            <input type="button" value="←" onclick="calculadora.borrarDigito()">
-            <input type="button" value="/" onclick="calculadora.division()">
+            <input type="submit" name="↑" value="↑">
+            <input type="submit" name="CE" value="CE">
+            <input type="submit" name="C" value="C">
+            <input type="submit" name="←" value="←" >
+            <input type="submit" name="/" value="/">
 
-            <input type="button" value="π" onclick="calculadora.pi()">
-            <input type="button" value="7" onclick="calculadora.digitos(7)">
-            <input type="button" value="8" onclick="calculadora.digitos(8)">
-            <input type="button" value="9" onclick="calculadora.digitos(9)">
-            <input type="button" value="*" onclick="calculadora.multiplicacion()">
+            <input type="submit" name="π" value="π">
+            <input type="submit" name="7" value="7">
+            <input type="submit" name="8" value="8">
+            <input type="submit" name="9" value="9">
+            <input type="submit" name="*" value="*">
 
-            <input type="button" value="n!" onclick="calculadora.factorial()">
-            <input type="button" value="4" onclick="calculadora.digitos(4)">
-            <input type="button" value="5" onclick="calculadora.digitos(5)">
-            <input type="button" value="6" onclick="calculadora.digitos(6)">
-            <input type="button" value="-" onclick="calculadora.resta()">
+            <input type="submit" name="n!" value="n!">
+            <input type="submit" name="4" value="4">
+            <input type="submit" name="5" value="5">
+            <input type="submit" name="6" value="6">
+            <input type="submit" name="-" value="-">
 
-            <input type="button" value="+-" onclick="calculadora.masMenos()">
-            <input type="button" value="1" onclick="calculadora.digitos(1)">
-            <input type="button" value="2" onclick="calculadora.digitos(2)">
-            <input type="button" value="3" onclick="calculadora.digitos(3)">
-            <input type="button" value="+" onclick="calculadora.suma()">
+            <input type="submit" name="+-" value="+-">
+            <input type="submit" name="1" value="1">
+            <input type="submit" name="2" value="2">
+            <input type="submit" name="3" value="3">
+            <input type="submit" name="+" value="+">
 
-            <input type="button" value="(" onclick="calculadora.abrePar()">
-            <input type="button" value=")" onclick="calculadora.cierraPar()">
-            <input type="button" value="0" onclick="calculadora.digitos(0)">
-            <input type="button" value="," onclick="calculadora.punto()">
-            <input type="button" value="=" onclick="calculadora.igual()">
+            <input type="submit" name="(" value="(">
+            <input type="submit" name=")" value=")">
+            <input type="submit" name="0" value="0">
+            <input type="submit" name="punto" value=".">
+            <input type="submit" name="=" value="=">
 
-
+        
             
 
         
