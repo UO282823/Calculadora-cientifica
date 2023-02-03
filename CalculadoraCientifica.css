@@ -31,7 +31,7 @@ input[value="F-E"]{
     width: 4.5em;  
 }
 /*Especifidad (011)*/
-input[type=submit]  {
+input[type=button]  {
     border-radius: 5%;
     
     padding: 1em;
